@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Homework</title>
+</head>
+    <body>
+        <div class="segments">
+            <div class="segment">
+                <div class="header">Заполните форму</div>
+            </div>
+            <div class="segment">
+                <form class="form">
+                    <div class="field">
+                        <label>Имя</label>
+                        <input name="name" type="text" placeholder="..." />
+                    </div>
+                    <div class="field">
+                        <label>Фамилия</label>
+                        <input name="surname" type="text" placeholder="..." />
+                    </div>
+                    <div class="field">
+                        <label>Возраст</label>
+                        <input name="age" type="number" placeholder="..." />
+                    </div>
+                </form>
+            </div>
+            <div class="right aligned segment">
+                <button class="button" name="submit">Submit</button>
+            </div>
+        </div>
+        <div class="modal">
+            <div class="content">
+                <div class="message segments">
+                    <div class="segment">
+                        <div class="form">
+                            <div class="inline field">
+                                <label>Имя:</label>
+                                <span class="text" name="name"></span>
+                            </div>
+                            <div class="inline field">
+                                <label>Фамилия:</label>
+                                <span class="text" name="surname"></span>
+                            </div>
+                            <div class="inline field">
+                                <label>Возраст:</label>
+                                <span class="text" name="age"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right aligned segment">
+                        <button class="button">Ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src = 'int_script.js'></script>
+    </body>
+</html>
